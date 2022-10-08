@@ -1,0 +1,16 @@
+.facebook:hover {
+  fill: #17a9fd;
+  color: #17a9fd;
+}
+.instagram:hover {
+  fill: #fd1d1d;
+  color: #fd1d1d;
+}
+.linkedin:hover {
+  fill: #0a66c2;
+  color: #0a66c2;
+}
+.github:hover {
+  fill: #666;
+  color: #666;
+}
