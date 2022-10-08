@@ -14,6 +14,7 @@ const tags = [];
 data.map((project) => {
   return project.technologies.map((tag) => {
     tags.push(tag);
+    return;
   });
 });
 
