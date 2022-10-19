@@ -26,9 +26,9 @@ const ExperienceSection = () => {
             <SectionHeader heading='Experience' color='' />
           </Grid>
           <Grid item xs={12} md={8}>
-            {educationData.map((education) => {
+            {educationData.map((education, index) => {
               const { position, duration, company } = education;
-              return <SingleExperience position={position} duration={duration} company={company} />;
+              return <SingleExperience key={index} position={position} duration={duration} company={company} />;
             })}
           </Grid>
         </Grid>

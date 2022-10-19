@@ -49,7 +49,6 @@ const ContactFormSection = () => {
   };
 
   useEffect(() => {
-    console.log('useEffect');
     const timeout = setTimeout(() => setResponse({}), 5000);
 
     return () => {

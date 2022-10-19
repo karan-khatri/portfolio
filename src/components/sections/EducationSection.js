@@ -26,9 +26,9 @@ const EducationSection = () => {
             <SectionHeader heading='Education' color='white' />
           </Grid>
           <Grid item xs={12} md={8}>
-            {educationData.map((education) => {
+            {educationData.map((education, index) => {
               const { degree, duration, institute } = education;
-              return <SingleEducation degree={degree} duration={duration} institute={institute} />;
+              return <SingleEducation key={index} degree={degree} duration={duration} institute={institute} />;
             })}
           </Grid>
         </Grid>

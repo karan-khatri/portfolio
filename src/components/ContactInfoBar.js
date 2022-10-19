@@ -10,6 +10,8 @@ import EmailIcon from '@mui/icons-material/Email';
 
 import { yellow } from '@mui/material/colors';
 
+import resume from '../assets/docs/Karan_Kumar_Resume.pdf';
+
 const ContactInfoBar = () => {
   return (
     <Container
@@ -56,7 +58,7 @@ const ContactInfoBar = () => {
         </Grid>
       </Grid>
 
-      <Button variant='contained' href='../assets/docs/Karan_Kumar_Resume.pdf' color='portfolioYellow' sx={{ float: 'right' }} download>
+      <Button variant='contained' href={resume} color='portfolioYellow' sx={{ float: 'right' }} download>
         Download Resume
       </Button>
     </Container>

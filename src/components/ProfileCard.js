@@ -11,6 +11,7 @@ import Instagram from '@mui/icons-material/Instagram';
 import Linkedin from '@mui/icons-material/LinkedIn';
 import GitHub from '@mui/icons-material/GitHub';
 import iconStyles from './icons.module.css';
+import { orange, yellow } from '@mui/material/colors';
 
 const LargeIconButton = styled(Button)({
   fontSize: '2.5rem',
@@ -18,8 +19,8 @@ const LargeIconButton = styled(Button)({
   width: 60,
   height: 60,
   '& > :not(style)': {
-    color: '#222',
-    fill: '#222',
+    color: yellow[700],
+    fill: yellow[700],
     fontSize: 'inherit',
     transition: 'fill 400ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 0.4s',
   },
@@ -27,9 +28,39 @@ const LargeIconButton = styled(Button)({
 
 const ProfileCard = () => {
   return (
-    <Card elevation={0} sx={{ position: 'relative', overflow: 'visible', px: 0, maxWidth: 720, mx: 'auto' }}>
-      <Box sx={{ overflow: 'hidden', position: 'absolute', borderRadius: '50%', width: 200, height: 200, left: 0, right: 0, mx: 'auto', top: -90 }}>
-        <CardMedia loading='lazy' component='img' image='https://karan-khatri.github.io/portfolio/assets/images/Profile-Picture.png' alt='Karan Kumar' />
+    <Card
+      elevation={0}
+      sx={{
+        position: 'relative',
+        overflow: 'visible',
+        px: 0,
+        maxWidth: 720,
+        mx: 'auto',
+        backgroundColor: '#5a4493',
+        color: 'white',
+        borderRadius: '10px 100px 10px 100px',
+      }}
+    >
+      <Box
+        sx={{
+          overflow: 'hidden',
+          position: 'absolute',
+          width: 200,
+          height: 200,
+          left: 0,
+          right: 0,
+          mx: 'auto',
+          top: -110,
+          transform: 'rotate(45deg)',
+        }}
+      >
+        <CardMedia
+          loading='lazy'
+          component='img'
+          image='https://karan-khatri.github.io/portfolio/assets/images/Profile-Picture.png'
+          alt='Karan Kumar'
+          sx={{ transform: 'rotate(-45deg)' }}
+        />
       </Box>
       <CardContent sx={{ pt: 15 }}>
         <Typography variant='h4' align='center' sx={{ fontWeight: 500, mb: 1.5 }}>
@@ -43,7 +74,7 @@ const ProfileCard = () => {
           <Typography variant='span' sx={{ fontWeight: 'bold' }}>
             {'Email : '}
           </Typography>
-          khatrikamlesh23@gmail
+          khatrikamlesh23@gmail.com
         </Typography>
 
         <Stack direction='row' spacing={1} justifyContent='center'>

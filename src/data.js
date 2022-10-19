@@ -14,6 +14,7 @@ import imgShlomoKatz from './assets/imgs/ShlomoKatz.png';
 import imgTaiwaneseDesign from './assets/imgs/Taiwanese-Design.png';
 import imgThinkfulCupid from './assets/imgs/ThinkfulCupid.png';
 import imgTaskManager from './assets/imgs/TaskManager.png';
+import imgCocktails from './assets/imgs/Cocktails.png';
 
 const data = [
   {
@@ -128,6 +129,13 @@ const data = [
     relevantTo: 'Fiverr Projects Portfolio',
     technologies: ['Pure HTML, CSS, & JS'],
     img: imgTaiwaneseDesign,
+  },
+  {
+    link: 'https://cocktails-api-react.netlify.app/',
+    projectName: 'Cocktails',
+    relevantTo: 'Practice Portfolio',
+    technologies: ['ReactJS, RESTful API'],
+    img: imgCocktails,
   },
 ];
 

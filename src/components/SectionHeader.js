@@ -12,7 +12,7 @@ const SectionHeader = (props) => {
   }
 
   if (!align) {
-    align = '';
+    align = 'left';
   }
 
   return (

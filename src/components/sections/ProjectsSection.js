@@ -14,7 +14,7 @@ const tags = [];
 data.map((project) => {
   return project.technologies.map((tag) => {
     tags.push(tag);
-    return tag;
+    return null;
   });
 });
 
@@ -82,11 +82,11 @@ const ProjectsSection = () => {
                   );
                 })}
               </Grid>
-              {projects.map((project) => {
+              {projects.map((project, index) => {
                 const { link, projectName, relevantTo, technologies, img } = project;
 
                 return (
-                  <Grid item xs={12} cb={6} md={4} lg={4}>
+                  <Grid key={index} item xs={12} cb={6} md={4} lg={4}>
                     <SingleProject projectName={projectName} link={link} relevantTo={relevantTo} technologies={technologies} img={img} color='white' />
                   </Grid>
                 );
