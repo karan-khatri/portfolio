@@ -11,7 +11,7 @@ import Instagram from '@mui/icons-material/Instagram';
 import Linkedin from '@mui/icons-material/LinkedIn';
 import GitHub from '@mui/icons-material/GitHub';
 import iconStyles from './icons.module.css';
-import { orange, yellow } from '@mui/material/colors';
+import { yellow } from '@mui/material/colors';
 
 const LargeIconButton = styled(Button)({
   fontSize: '2.5rem',
