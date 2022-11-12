@@ -57,7 +57,7 @@ const data = [
     link: 'https://react-app-task-manager.netlify.app/',
     projectName: 'Task Manager',
     relevantTo: 'Practice Portfolio',
-    technologies: ['RESTful API', 'MERN Stack'],
+    technologies: ['RESTful API', 'MERN Stack', 'Bootstrap', 'React'],
     img: imgTaskManager,
   },
   {
@@ -134,7 +134,7 @@ const data = [
     link: 'https://cocktails-api-react.netlify.app/',
     projectName: 'Cocktails',
     relevantTo: 'Practice Portfolio',
-    technologies: ['ReactJS, RESTful API'],
+    technologies: ['React', 'RESTful API'],
     img: imgCocktails,
   },
 ];

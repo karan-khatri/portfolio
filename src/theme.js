@@ -15,19 +15,7 @@ const theme = createTheme({
   },
 
   typography: {
-    fontFamily: [
-      'Poppins',
-      '-apple-system',
-      'BlinkMacSystemFont',
-      '"Segoe UI"',
-      'Roboto',
-      'Oxygen',
-      'Ubuntu',
-      'Cantarell',
-      '"Open Sans"',
-      '"Helvetica Neue"',
-      'sans-serif',
-    ].join(','),
+    fontFamily: ['Poppins', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', '"Open Sans"', '"Helvetica Neue"', 'sans-serif'].join(','),
   },
 
   components: {
@@ -66,6 +54,11 @@ const theme = createTheme({
       main: purple[800],
       contrastText: '#fff',
     },
+    portfolioBlack: {
+      main: '#111',
+    },
+
+    tonalOffset: 0.3,
   },
 });
 

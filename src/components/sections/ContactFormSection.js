@@ -10,6 +10,8 @@ import LoadingButton from '@mui/lab/LoadingButton';
 
 import SendIcon from '@mui/icons-material/Send';
 
+import bg from '../../assets/imgs/bg.jpg';
+
 // import bg from '../assets/imgs/cool-background.png';
 
 const ContactFormSection = () => {
@@ -57,10 +59,21 @@ const ContactFormSection = () => {
   }, [loading]);
 
   return (
-    <Container component='section' maxWidth={false} sx={{ py: 5, bgcolor: '#ddd', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <Container component='section' maxWidth={false} sx={{ py: 5, backgroundImage: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <Grid container>
         <Grid item xs={12}>
-          <Box sx={{ maxWidth: { xs: '100%', md: '70%' }, mx: 'auto' }}>
+          <Box
+            sx={{
+              maxWidth: { xs: '100%', md: '75%' },
+              mx: 'auto',
+              py: 3,
+              px: { xs: 1.5, sm: 3, md: 5 },
+              background: 'rgba(255, 255, 255, 0.6)',
+              backdropFilter: 'blur(3px)',
+              border: 'solid 1px rgba(255, 167, 38, 0.8)',
+              borderRadius: '0.5rem 3rem 0.5rem 3rem ',
+            }}
+          >
             <Typography
               variant='h4'
               gutterBottom
@@ -83,45 +96,13 @@ const ContactFormSection = () => {
               Get In Touch
             </Typography>
             <form onSubmit={(e) => handleSubmit(e)}>
-              <TextField required id='name' label='Name' color='portfolioOrange' variant='outlined' margin='normal' fullWidth onChange={handleNameChange} />
+              <TextField required id='name' label='Name' color='portfolioBlack' variant='outlined' margin='normal' fullWidth onChange={handleNameChange} />
 
-              <TextField
-                required
-                type='email'
-                id='email'
-                label='Email'
-                color='portfolioOrange'
-                variant='outlined'
-                margin='normal'
-                fullWidth
-                onChange={handleEmailChange}
-              />
+              <TextField required type='email' id='email' label='Email' color='portfolioBlack' variant='outlined' margin='normal' fullWidth onChange={handleEmailChange} />
 
-              <TextField
-                required
-                id='message'
-                label='Message'
-                color='portfolioOrange'
-                variant='outlined'
-                sx={{ mb: 3 }}
-                rows={5}
-                margin='normal'
-                placeholder='Message'
-                fullWidth
-                multiline
-                onChange={handleMessageChange}
-              />
+              <TextField required id='message' label='Message' color='portfolioBlack' variant='outlined' sx={{ mb: 3 }} rows={5} margin='normal' placeholder='Message' fullWidth multiline onChange={handleMessageChange} />
 
-              <LoadingButton
-                variant='contained'
-                color='portfolioYellow'
-                type='submit'
-                size='large'
-                endIcon={<SendIcon />}
-                loading={loading}
-                loadingPosition='end'
-                onClick={(e) => handleSubmit(e)}
-              >
+              <LoadingButton variant='contained' color='portfolioYellow' type='submit' size='large' endIcon={<SendIcon />} loading={loading} loadingPosition='end' onClick={(e) => handleSubmit(e)}>
                 Submit
               </LoadingButton>
 
