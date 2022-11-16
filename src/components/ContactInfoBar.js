@@ -14,27 +14,8 @@ import resume from '../assets/docs/Karan_Kumar_Resume.pdf';
 
 const ContactInfoBar = () => {
   return (
-    <Container
-      sx={{
-        maxWidth: 1000,
-        position: 'absolute',
-        top: 60,
-        left: 0,
-        right: 0,
-      }}
-    >
-      <Grid
-        container
-        rowSpacing={2}
-        sx={{
-          backgroundColor: yellow[700],
-          borderRadius: 5,
-          px: { xs: 3, sm: 4, md: 5 },
-          pt: 2,
-          pb: 4,
-          mb: 3,
-        }}
-      >
+    <Container sx={{ maxWidth: 1000, position: 'absolute', top: 60, left: 0, right: 0 }}>
+      <Grid container rowSpacing={2} sx={{ backgroundColor: yellow[700], borderRadius: 5, px: { xs: 3, sm: 4, md: 5 }, pt: 2, pb: 4, mb: 3 }}>
         <Grid item xs={12} sm={6} md={4}>
           <Typography variant='body1'>
             <PlaceIcon fontSize='large' sx={{ mr: 1 }} /> {'Karachi Pakistan'}

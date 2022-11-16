@@ -15,8 +15,16 @@ import imgTaiwaneseDesign from './assets/imgs/Taiwanese-Design.png';
 import imgThinkfulCupid from './assets/imgs/ThinkfulCupid.png';
 import imgTaskManager from './assets/imgs/TaskManager.png';
 import imgCocktails from './assets/imgs/Cocktails.png';
+import imgSGOATC from './assets/imgs/sgoatc.png';
 
 const data = [
+  {
+    link: 'https://sgoatc.vercel.app',
+    projectName: 'SGOATC - Samurai G.O.A.T Club',
+    relevantTo: 'Practice Portfolio',
+    technologies: ['Material UI', 'React', 'Next.JS'],
+    img: imgSGOATC,
+  },
   {
     link: 'https://karan-khatri.github.io/nebula-node/',
     projectName: 'Nebula Node',
@@ -40,7 +48,7 @@ const data = [
   },
 
   {
-    link: 'https://karan-khatri.github.io/reminder-app/',
+    link: 'https://karan-khatri.github.io/reminder-app-frontend/',
     projectName: 'Reminder App',
     relevantTo: 'Fiverr Projects Portfolio',
     technologies: ['Bootstrap'],
@@ -61,6 +69,13 @@ const data = [
     img: imgTaskManager,
   },
   {
+    link: 'https://cocktails-api-react.netlify.app/',
+    projectName: 'Cocktails',
+    relevantTo: 'Practice Portfolio',
+    technologies: ['React', 'RESTful API'],
+    img: imgCocktails,
+  },
+  {
     link: 'https://karan-khatri.github.io/shlomo-katz/',
     projectName: 'SholmoKatz',
     relevantTo: 'Fiverr Projects Portfolio',
@@ -74,13 +89,7 @@ const data = [
     technologies: ['Bootstrap'],
     img: imgNationalGasIndustries,
   },
-  {
-    link: 'https://karan-khatri.github.io/thinkful-cupid/',
-    projectName: 'Thinkful Cupid',
-    relevantTo: 'Fiverr Projects Portfolio',
-    technologies: ['Pure HTML, CSS, & JS'],
-    img: imgThinkfulCupid,
-  },
+
   {
     link: 'https://karan-khatri.github.io/fiverr-gig-page-clone/',
     projectName: 'Fiverr Gig Page Clone',
@@ -94,6 +103,20 @@ const data = [
     relevantTo: 'Fiverr Projects Portfolio',
     technologies: ['Pure HTML, CSS, & JS'],
     img: imgFiverrProfilePageClone,
+  },
+  {
+    link: 'https://karan-khatri.github.io/blog-site/',
+    projectName: 'KK Coding Blog',
+    relevantTo: 'Fiverr Projects Portfolio',
+    technologies: ['Pure HTML, CSS, & JS'],
+    img: imgKKCoding,
+  },
+  {
+    link: 'https://karan-khatri.github.io/thinkful-cupid/',
+    projectName: 'Thinkful Cupid',
+    relevantTo: 'Fiverr Projects Portfolio',
+    technologies: ['Pure HTML, CSS, & JS'],
+    img: imgThinkfulCupid,
   },
   {
     link: 'https://karan-khatri.github.io/custom-modern-sliders/',
@@ -117,25 +140,11 @@ const data = [
     img: imgCutomFAQ,
   },
   {
-    link: 'https://karan-khatri.github.io/blog-site/',
-    projectName: 'KK Coding Blog',
-    relevantTo: 'Fiverr Projects Portfolio',
-    technologies: ['Pure HTML, CSS, & JS'],
-    img: imgKKCoding,
-  },
-  {
     link: 'https://karan-khatri.github.io/taiwanese-design/',
     projectName: 'Taiwanese Design',
     relevantTo: 'Fiverr Projects Portfolio',
     technologies: ['Pure HTML, CSS, & JS'],
     img: imgTaiwaneseDesign,
-  },
-  {
-    link: 'https://cocktails-api-react.netlify.app/',
-    projectName: 'Cocktails',
-    relevantTo: 'Practice Portfolio',
-    technologies: ['React', 'RESTful API'],
-    img: imgCocktails,
   },
 ];
 

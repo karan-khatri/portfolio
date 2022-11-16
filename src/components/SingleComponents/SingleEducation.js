@@ -9,18 +9,7 @@ const StyledBox = styled(Box)({
   marginBottom: 50,
   paddingLeft: 40,
   position: 'relative',
-  '&::before': {
-    content: '""',
-    display: 'block',
-    position: 'absolute',
-    left: -8,
-    top: -5,
-    boxShadow: '0em 0em 0em 8px rgba(255, 165, 0, 0.4)',
-    borderRadius: '50%',
-    width: 15,
-    height: 15,
-    backgroundColor: orange[400],
-  },
+  '&::before': { content: '""', display: 'block', position: 'absolute', left: -8, top: -5, boxShadow: '0em 0em 0em 8px rgba(255, 165, 0, 0.4)', borderRadius: '50%', width: 15, height: 15, backgroundColor: orange[400] },
 });
 
 const SingleEducation = (props) => {

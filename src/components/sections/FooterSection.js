@@ -31,16 +31,7 @@ const FooterSection = () => {
       <Container maxWidth='lg'>
         <Grid container>
           <Grid item xs={12} md={5}>
-            <Box
-              sx={{
-                my: { xs: 4, md: 7 },
-                px: 4,
-                py: 7,
-                backgroundColor: { xs: 'white', md: 'transparent' },
-                color: { xs: 'body', md: 'white' },
-                borderRight: { xs: 'none', md: 'solid 2px #ddd' },
-              }}
-            >
+            <Box sx={{ my: { xs: 4, md: 7 }, px: 4, py: 7, backgroundColor: { xs: 'white', md: 'transparent' }, color: { xs: 'body', md: 'white' }, borderRight: { xs: 'none', md: 'solid 2px #ddd' } }}>
               <Typography variant='body1' sx={{ mb: 1, textAlign: { xs: 'center', md: 'left' } }}>
                 Need some work to be done?
               </Typography>
@@ -53,14 +44,7 @@ const FooterSection = () => {
             </Box>
           </Grid>
           <Grid item xs={12} md={7}>
-            <Box
-              color='white'
-              display='flex'
-              flexDirection='column'
-              alignItems='center'
-              justifyContent='center'
-              sx={{ px: 4, mb: { xs: 5, md: 0 }, height: '100%' }}
-            >
+            <Box color='white' display='flex' flexDirection='column' alignItems='center' justifyContent='center' sx={{ px: 4, mb: { xs: 5, md: 0 }, height: '100%' }}>
               <Typography paragraph align='center'>
                 Follow me on
               </Typography>

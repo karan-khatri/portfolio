@@ -17,23 +17,7 @@ const SectionHeader = (props) => {
 
   return (
     <Box className='section-header' sx={{ mb: 4 }}>
-      <Typography
-        variant='h5'
-        color={color}
-        align={align}
-        sx={{
-          fontWeight: 600,
-          '&::before': {
-            content: '""',
-            display: 'block',
-            borderRadius: 2,
-            marginBottom: 1,
-            height: 10,
-            width: 50,
-            backgroundColor: 'orange',
-          },
-        }}
-      >
+      <Typography variant='h5' color={color} align={align} sx={{ fontWeight: 600, '&::before': { content: '""', display: 'block', borderRadius: 2, marginBottom: 1, height: 10, width: 50, backgroundColor: 'orange' } }}>
         {heading}
       </Typography>
       {subHeading && (

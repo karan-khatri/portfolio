@@ -12,8 +12,6 @@ import SendIcon from '@mui/icons-material/Send';
 
 import bg from '../../assets/imgs/bg.jpg';
 
-// import bg from '../assets/imgs/cool-background.png';
-
 const ContactFormSection = () => {
   const [response, setResponse] = useState({});
   const [loading, setLoading] = useState(false);
@@ -62,37 +60,8 @@ const ContactFormSection = () => {
     <Container component='section' maxWidth={false} sx={{ py: 5, backgroundImage: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <Grid container>
         <Grid item xs={12}>
-          <Box
-            sx={{
-              maxWidth: { xs: '100%', md: '75%' },
-              mx: 'auto',
-              py: 3,
-              px: { xs: 1.5, sm: 3, md: 5 },
-              background: 'rgba(255, 255, 255, 0.6)',
-              backdropFilter: 'blur(3px)',
-              border: 'solid 1px rgba(255, 167, 38, 0.8)',
-              borderRadius: '0.5rem 3rem 0.5rem 3rem ',
-            }}
-          >
-            <Typography
-              variant='h4'
-              gutterBottom
-              align='center'
-              sx={{
-                mb: 4,
-                '&::after': {
-                  content: '""',
-                  display: 'block',
-                  borderRadius: 2,
-                  mt: 1.5,
-                  mb: 1,
-                  mx: 'auto',
-                  height: 10,
-                  width: 75,
-                  backgroundColor: 'orange',
-                },
-              }}
-            >
+          <Box sx={{ maxWidth: { xs: '100%', md: '75%' }, mx: 'auto', py: 3, px: { xs: 1.5, sm: 3, md: 5 }, background: 'rgba(255, 255, 255, 0.6)', backdropFilter: 'blur(3px)', border: 'solid 1px rgba(255, 167, 38, 0.8)', borderRadius: '0.5rem 3rem 0.5rem 3rem ' }}>
+            <Typography variant='h4' gutterBottom align='center' sx={{ mb: 4, '&::after': { content: '""', display: 'block', borderRadius: 2, mt: 1.5, mb: 1, mx: 'auto', height: 10, width: 75, backgroundColor: 'orange' } }}>
               Get In Touch
             </Typography>
             <form onSubmit={(e) => handleSubmit(e)}>
