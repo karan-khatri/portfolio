@@ -25,7 +25,7 @@ const ContactFormSection = () => {
 
     setLoading(true);
     try {
-      const formResponse = await axios.post('https://validate-contact-form.herokuapp.com/v1/sendMail/', {
+      const formResponse = await axios.post('https://validate-contact-form.onrender.com/v1/sendMail/', {
         name,
         email,
         message,
