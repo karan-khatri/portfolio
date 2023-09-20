@@ -27,7 +27,7 @@ const SingleProject = (props) => {
   }
 
   return (
-    <Button href={link} sx={{ position: 'relative', p: 0, width: '100%', maxHeight: 260, height: '100%', overflow: 'hidden', borderRadius: '0.5rem 3rem 0.5rem 3rem' }}>
+    <Button href={link} target='_blank' sx={{ position: 'relative', p: 0, width: '100%', maxHeight: 260, height: '100%', overflow: 'hidden', borderRadius: '0.5rem 3rem 0.5rem 3rem' }}>
       <Card component='article' className='singleProject' sx={{ width: '100%', maxWidth: '100%', maxHeight: 260, height: '100%', overflow: 'hidden' }}>
         <CardMedia loading='lazy' component='img' image={img} alt={projectName} sx={{ minHeight: 230, width: '101%', height: '100%', maxHeight: 260, objectPosition: 'top center' }} />
 

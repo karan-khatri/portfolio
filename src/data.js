@@ -16,6 +16,7 @@ import imgThinkfulCupid from './assets/imgs/ThinkfulCupid.png';
 import imgTaskManager from './assets/imgs/TaskManager.png';
 import imgCocktails from './assets/imgs/Cocktails.png';
 import imgSGOATC from './assets/imgs/sgoatc.png';
+import imgEmiratesAlumni from './assets/imgs/EmiratesAlumni.png';
 
 const data = [
   {
@@ -24,6 +25,13 @@ const data = [
     relevantTo: 'Practice Portfolio',
     technologies: ['Material UI', 'React', 'Next.JS'],
     img: imgSGOATC,
+  },
+  {
+    link: 'https://karan-khatri.github.io/emirates_alumni/',
+    projectName: 'Emirated Alumni',
+    relevantTo: 'Fiverr Projects Portfolio',
+    technologies: ['Bootstrap', "Materialize CSS"],
+    img: imgEmiratesAlumni,
   },
   {
     link: 'https://karan-khatri.github.io/nebula-node/',
@@ -125,20 +133,20 @@ const data = [
     technologies: ['Owl Carousel 2', 'Bootstrap'],
     img: imgCutomModernSliders,
   },
-  {
-    link: 'https://karan-khatri.github.io/insurance-hunter-data-demand-form/',
-    projectName: 'IH - Data Demand Form',
-    relevantTo: 'Fiverr Projects Portfolio',
-    technologies: ['Pure HTML, CSS, & JS'],
-    img: imgDataDemandForm,
-  },
-  {
-    link: 'https://karan-khatri.github.io/custom-faq/',
-    projectName: 'IH - FAQ',
-    relevantTo: 'Fiverr Projects Portfolio',
-    technologies: ['Pure HTML, CSS, & JS'],
-    img: imgCutomFAQ,
-  },
+  // {
+  //   link: 'https://karan-khatri.github.io/insurance-hunter-data-demand-form/',
+  //   projectName: 'IH - Data Demand Form',
+  //   relevantTo: 'Fiverr Projects Portfolio',
+  //   technologies: ['Pure HTML, CSS, & JS'],
+  //   img: imgDataDemandForm,
+  // },
+  // {
+  //   link: 'https://karan-khatri.github.io/custom-faq/',
+  //   projectName: 'IH - FAQ',
+  //   relevantTo: 'Fiverr Projects Portfolio',
+  //   technologies: ['Pure HTML, CSS, & JS'],
+  //   img: imgCutomFAQ,
+  // },
   {
     link: 'https://karan-khatri.github.io/taiwanese-design/',
     projectName: 'Taiwanese Design',
