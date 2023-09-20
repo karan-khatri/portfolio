@@ -42,7 +42,7 @@ const ProfileCard = () => {
       }}
     >
       <Box sx={{ overflow: 'hidden', position: 'absolute', width: 200, height: 200, left: 0, right: 0, mx: 'auto', top: -110, transform: 'rotate(45deg)' }}>
-        <CardMedia loading='lazy' component='img' image='https://karan-khatri.github.io/portfolio/assets/images/Profile-Picture.png' alt='Karan Kumar' sx={{ transform: 'rotate(-45deg)' }} />
+        <CardMedia loading='lazy' component='img' image='https://karan-khatri.github.io/portfolio-bootstrap/assets/images/Profile-Picture.png' alt='Karan Kumar' sx={{ transform: 'rotate(-45deg)' }} />
       </Box>
       <CardContent sx={{ pt: 15 }}>
         <Typography variant='h4' align='center' sx={{ fontWeight: 500, mb: 1.5 }}>
