@@ -17,6 +17,8 @@ import imgTaskManager from './assets/imgs/TaskManager.png';
 import imgCocktails from './assets/imgs/Cocktails.png';
 import imgSGOATC from './assets/imgs/sgoatc.png';
 import imgEmiratesAlumni from './assets/imgs/EmiratesAlumni.png';
+import imgEdinGarden from './assets/imgs/EdinGarden.png';
+import imgSheRides from './assets/imgs/SheRides.png';
 
 const data = [
   {
@@ -132,6 +134,20 @@ const data = [
     relevantTo: 'Fiverr Projects Portfolio',
     technologies: ['Owl Carousel 2', 'Bootstrap'],
     img: imgCutomModernSliders,
+  },
+  {
+    link: 'https://karan-khatri.github.io/eden-garden/',
+    projectName: 'Edin Garden',
+    relevantTo: 'Fiverr Projects Portfolio',
+    technologies: ["Bootstrap"],
+    img: imgEdinGarden,
+  },
+  {
+    link: 'https://karan-khatri.github.io/she-rides/',
+    projectName: 'She Rides',
+    relevantTo: 'Fiverr Projects Portfolio',
+    technologies: ["Tailwind CSS"],
+    img: imgSheRides,
   },
   // {
   //   link: 'https://karan-khatri.github.io/insurance-hunter-data-demand-form/',
