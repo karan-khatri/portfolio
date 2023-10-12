@@ -36,7 +36,7 @@ const data = [
     img: imgEmiratesAlumni,
   },
   {
-    link: "https://karan-khatri.github.io/nebula-node/",
+    link: "https://nebulanode.com",
     projectName: "Nebula Node",
     relevantTo: "Fiverr Projects Portfolio",
     technologies: ["Bootstrap"],
@@ -173,3 +173,5 @@ const data = [
 ];
 
 export default data;
+
+
