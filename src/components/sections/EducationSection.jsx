@@ -6,7 +6,12 @@ import SingleEducation from '../SingleComponents/SingleEducation';
 
 const educationData = [
   {
-    degree: 'Graduation (B.S Information Technology)',
+    degree: 'M.S Software: Science and Technology',
+    duration: '2024 - Present',
+    institute: 'Università degli Studi di Firenze, Italy',
+  },
+  {
+    degree: 'B.S Information Technology',
     duration: '2018 - 2022',
     institute: 'Quaid-e-Awam University of Engineering, Science, and Technology, Nawabshah',
   },

@@ -46,10 +46,10 @@ const ProfileCard = () => {
       </Box>
       <CardContent sx={{ pt: 15 }}>
         <Typography variant='h4' align='center' sx={{ fontWeight: 500, mb: 1.5 }}>
-          Karan Kumar Khatri
+          Karan Kumar
         </Typography>
         <Typography variant='h6' align='center' sx={{ mb: 1.5 }}>
-          MERN Stack Develoer
+          Full Stack Web Developer
         </Typography>
 
         <Typography variant='body1' align='center' sx={{ mb: 2.5 }}>

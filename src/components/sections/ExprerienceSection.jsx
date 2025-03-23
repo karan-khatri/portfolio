@@ -6,8 +6,8 @@ import SingleExperience from "../SingleComponents/SingleExperience";
 
 const educationData = [
   {
-    position: "Front End Developer",
-    duration: "Dec 2022 - Present",
+    position: "Software Engineer",
+    duration: "Dec 2022 - Jan 2025",
     company: "Concept Recall",
   },
   {

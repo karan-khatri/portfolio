@@ -18,28 +18,28 @@ const ContactInfoBar = () => {
       <Grid container rowSpacing={2} sx={{ backgroundColor: yellow[700], borderRadius: 5, px: { xs: 3, sm: 4, md: 5 }, pt: 2, pb: 4, mb: 3 }}>
         <Grid item xs={12} sm={6} md={4}>
           <Typography variant='body1'>
-            <PlaceIcon fontSize='large' sx={{ mr: 1 }} /> {'Karachi Pakistan'}
+            <PlaceIcon fontSize='large' sx={{ mr: 1 }} /> Firenze, Italy
           </Typography>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <Typography variant='body1'>
-            <ATag href='tel:+923070388757' underline='hover' color='inherit'>
+            <ATag href='tel:+393295975221' underline='hover' color='inherit'>
               <PhoneIcon fontSize='large' sx={{ mr: 2 }} />
-              {'+92-307-0388757'}
+              +39-329-5975221
             </ATag>
           </Typography>
         </Grid>
         <Grid item xs={12} sm={8} md={4}>
           <Typography variant='body1' noWrap>
-            <ATag href='mailto:khatri.kamlesh23@gmail.com' underline='hover' color='inherit'>
+            <ATag href='mailto:khatrikamlesh23@gmail.com' underline='hover' color='inherit'>
               <EmailIcon fontSize='large' sx={{ mr: 2 }} />
-              {'khatrikamlesh23@gmail.com'}
+              khatrikamlesh23@gmail.com
             </ATag>
           </Typography>
         </Grid>
       </Grid>
 
-      <Button variant='contained' href={resume} color='portfolioYellow' sx={{ float: 'right' }} download>
+      <Button variant='contained' href="https://drive.google.com/file/d/18Fg2gCMiMv8tnllNjg7jwepCq-UMPxPE/view?usp=sharing" color='portfolioYellow' sx={{ float: 'right' }} target='_blank'>
         Download Resume
       </Button>
     </Container>
