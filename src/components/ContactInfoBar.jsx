@@ -23,7 +23,7 @@ const ContactInfoBar = () => {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <Typography variant='body1'>
-            <ATag href='tel:+393295975221' underline='hover' color='inherit'>
+            <ATag href='tel:+393520780270' underline='hover' color='inherit'>
               <PhoneIcon fontSize='large' sx={{ mr: 2 }} />
               +39-352-0780270
             </ATag>
