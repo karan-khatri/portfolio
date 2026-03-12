@@ -13,8 +13,8 @@ const AboutMeSection = () => {
         </Grid>
         <Grid item xs={12} md={8}>
           <Typography variant="body1" align="justify">
-            🚀 Full Stack Web Developer | MERN Stack Specialist | Open to Opportunities in Italy 🇮🇹 <br /> <br />
-            Hi, I&apos;m Karan Kumar, a Full Stack Web Developer with 3 years of experience, currently based in Italy. I have a strong background in building scalable, user-friendly web applications with modern technologies. <br /> <br />
+            Full Stack Software Engineer | MERN Stack Specialist | Open to Opportunities in Italy 🇮🇹 <br /> <br />
+            Hi, I&apos;m Karan Kumar, a Full Stack Software Engineer with 3 years of experience, currently based in Italy. I have a strong background in building scalable, user-friendly web applications with modern technologies. <br /> <br />
             <strong>My Expertise: </strong>
             <br />
             ✅ <strong>Frontend: </strong> React, Vue.js, Next.js, Material UI, Tailwind CSS

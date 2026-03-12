@@ -25,7 +25,7 @@ const ContactInfoBar = () => {
           <Typography variant='body1'>
             <ATag href='tel:+393295975221' underline='hover' color='inherit'>
               <PhoneIcon fontSize='large' sx={{ mr: 2 }} />
-              +39-329-5975221
+              +39-352-0780270
             </ATag>
           </Typography>
         </Grid>
@@ -39,7 +39,7 @@ const ContactInfoBar = () => {
         </Grid>
       </Grid>
 
-      <Button variant='contained' href="https://drive.google.com/file/d/18Fg2gCMiMv8tnllNjg7jwepCq-UMPxPE/view?usp=sharing" color='portfolioYellow' sx={{ float: 'right' }} target='_blank'>
+      <Button variant='contained' href="https://drive.google.com/file/d/1-xo_E9XGXdjTiZPWdhamZmFhWyzlLt32/view" color='portfolioYellow' sx={{ float: 'right' }} target='_blank'>
         Download Resume
       </Button>
     </Container>

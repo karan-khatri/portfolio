@@ -49,7 +49,7 @@ const ProfileCard = () => {
           Karan Kumar
         </Typography>
         <Typography variant='h6' align='center' sx={{ mb: 1.5 }}>
-          Full Stack Web Developer
+          Full Stack Software Engineer
         </Typography>
 
         <Typography variant='body1' align='center' sx={{ mb: 2.5 }}>
